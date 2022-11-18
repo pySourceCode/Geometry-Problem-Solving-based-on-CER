@@ -1,0 +1,134 @@
+                   label = final_new
+                strategy = final
+               data_path = ../data/geometry3k
+    text_logic_form_path = /root/data/songbing/InterGPS-main/text_parser/text_logic_forms.json
+ diagram_logic_form_path = /root/data/songbing/InterGPS-main/diagram_parser/diagram_logic_forms_pred.json
+           use_annotated = False
+            predict_path = /root/data/songbing/InterGPS-main/GA/merge_GA_and_gene_seq_2.json
+             start_index = 2407
+               end_index = 2507
+              time_limit = 150
+             num_threads = 20
+               low_first = True
+              step_limit = 100
+              debug_mode = False
+            enable_round = False
+          enable_predict = True
+
+{'pid': 2407, 'target': ['Value', 'x'], 'guess': None, 'correctness': 'no', 'steps': 23, 'step_lst': [11, 17, 1, 10, 11, 13, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 14.08}
+{'pid': 2408, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.5}
+{'pid': 2409, 'target': ['Value', 'y'], 'guess': 36.373066958946424, 'correctness': 'yes', 'steps': 1, 'step_lst': [17], 'time': 2.46}
+{'pid': 2410, 'target': ['Value', 'C', 'D'], 'guess': 40.0, 'correctness': 'yes', 'steps': 2, 'step_lst': [10, 14], 'time': 5.95}
+{'pid': 2411, 'target': ['Area', (['Shape', '$'], {})], 'guess': None, 'correctness': 'no', 'steps': 19, 'step_lst': [7, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 0.05}
+{'pid': 2412, 'target': ['Value', 'K', 'M', 'L'], 'guess': 35.0, 'correctness': 'yes', 'steps': 3, 'step_lst': [2, 1, 10], 'time': 13.96}
+{'pid': 2413, 'target': ['Value', 'A', 'C', 'D'], 'guess': 1.0, 'correctness': 'no', 'steps': 4, 'step_lst': [17, 15, 4, 10], 'time': 5.68}
+{'pid': 2414, 'target': ['Value', 'A', 'E'], 'guess': 15.0, 'correctness': 'yes', 'steps': 4, 'step_lst': [10, 2, 1, 14], 'time': 30.39}
+{'pid': 2415, 'target': ['Value', 'R', 'N', 'P'], 'guess': 38.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [10], 'time': 4.36}
+{'pid': 2416, 'target': ['Value', 'y'], 'guess': 4.4, 'correctness': 'no', 'steps': 5, 'step_lst': [10, 1, 2, 11, 10], 'time': 22.56}
+{'pid': 2417, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 84.56}
+{'pid': 2418, 'target': ['Value', 'A', 'D', 'C'], 'guess': 40.1, 'correctness': 'no', 'steps': 1, 'step_lst': [10], 'time': 11.86}
+{'pid': 2419, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.46}
+{'pid': 2420, 'target': ['Value', 'D', 'E'], 'guess': None, 'correctness': 'no', 'steps': 37, 'step_lst': [16, 17, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 9.96}
+{'pid': 2421, 'target': ['Perimeter', 'A', 'C', 'B', 'D'], 'guess': 64.0, 'correctness': 'yes', 'steps': 0, 'step_lst': [], 'time': 0.33}
+{'pid': 2422, 'target': ['Value', 'arc_length', 'C', 'B', 'A'], 'guess': None, 'correctness': 'no', 'steps': 38, 'step_lst': [2, 2, 10, 3, 5, 5, 2, 5, 1, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 4.44}
+{'pid': 2423, 'target': ['Value', 'A', 'B'], 'guess': 7.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [17], 'time': 1.55}
+{'pid': 2424, 'target': ['Value', 'B', 'G', 'E'], 'guess': 60.0, 'correctness': 'yes', 'steps': 0, 'step_lst': [], 'time': 1.73}
+{'pid': 2425, 'target': ['Value', 'x'], 'guess': 69.75539146913174, 'correctness': 'yes', 'steps': 3, 'step_lst': [10, 1, 17], 'time': 2.14}
+{'pid': 2426, 'target': ['Value', 'x'], 'guess': None, 'correctness': 'no', 'steps': 106, 'step_lst': [1, 10, 14, 16, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 2.44}
+{'pid': 2427, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 2.5}
+{'pid': 2428, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 2.3}
+{'pid': 2429, 'target': ['Area', 'A', 'B', 'D', 'C'], 'guess': None, 'correctness': 'no', 'steps': 109, 'step_lst': [1, 2, 13, 10, 17, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 3.41}
+{'pid': 2430, 'target': ['Value', 'X', 'Z'], 'guess': 34.0, 'correctness': 'yes', 'steps': 3, 'step_lst': [2, 4, 5], 'time': 2.69}
+{'pid': 2431, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 150.34}
+{'pid': 2432, 'target': ['Area', 'B', 'C', 'E', 'D'], 'guess': None, 'correctness': 'no', 'steps': 102, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 5.61}
+{'pid': 2433, 'target': ['Value', 'x'], 'guess': 14.722431864335457, 'correctness': 'yes', 'steps': 7, 'step_lst': [9, 2, 1, 16, 6, 10, 17], 'time': 0.98}
+{'pid': 2434, 'target': ['Value', 'G', 'H'], 'guess': None, 'correctness': 'no', 'steps': 103, 'step_lst': [3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 3.61}
+{'pid': 2435, 'target': ['Value', 'x'], 'guess': 115.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [1], 'time': 0.21}
+{'pid': 2436, 'target': ['Value', 'angle 2'], 'guess': 150.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [2], 'time': 9.0}
+{'pid': 2437, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 150.03}
+{'pid': 2438, 'target': ['Value', 'W', 'R'], 'guess': None, 'correctness': 'no', 'steps': 21, 'step_lst': [11, 2, 14, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 4.38}
+{'pid': 2439, 'target': ['Value', 'R', 'S', 'T'], 'guess': None, 'correctness': 'no', 'steps': 41, 'step_lst': [8, 3, 4, 3, 1, 2, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 1.72}
+{'pid': 2440, 'target': ['Value', 'A', 'D', 'C'], 'guess': None, 'correctness': 'no', 'steps': 113, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 4.67}
+{'pid': 2441, 'target': ['Value', 'angle 1'], 'guess': 110.0, 'correctness': 'yes', 'steps': 10, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'time': 8.26}
+{'pid': 2442, 'target': ['Value', 'x'], 'guess': 90.0, 'correctness': 'yes', 'steps': 2, 'step_lst': [1, 2], 'time': 18.3}
+{'pid': 2443, 'target': ['Value', 'angle 1'], 'guess': 108.0, 'correctness': 'yes', 'steps': 2, 'step_lst': [10, 1], 'time': 1.0}
+{'pid': 2444, 'target': ['Value', 'x'], 'guess': 37.20724357478334, 'correctness': 'yes', 'steps': 45, 'step_lst': [2, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 14.28}
+{'pid': 2445, 'target': ['Value', 'x'], 'guess': 5.65685424949238, 'correctness': 'yes', 'steps': 1, 'step_lst': [17], 'time': 19.22}
+{'pid': 2446, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 150.13}
+{'pid': 2447, 'target': ['Value', 'y'], 'guess': None, 'correctness': 'no', 'steps': 24, 'step_lst': [10, 10, 4, 2, 3, 11, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 2.62}
+{'pid': 2448, 'target': ['Value', 'y'], 'guess': 10.0, 'correctness': 'yes', 'steps': 3, 'step_lst': [1, 2, 17], 'time': 1.48}
+{'pid': 2449, 'target': ['Value', 'Y', 'W', 'V'], 'guess': 553.0, 'correctness': 'no', 'steps': 5, 'step_lst': [13, 10, 13, 1, 2], 'time': 26.4}
+{'pid': 2450, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.4}
+{'pid': 2451, 'target': ['Value', 'Q', 'R', 'S'], 'guess': 29.088022138078628, 'correctness': 'yes', 'steps': 28, 'step_lst': [10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 5.53}
+{'pid': 2452, 'target': ['Value', 'angle 5'], 'guess': None, 'correctness': 'no', 'steps': 113, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 82.11}
+{'pid': 2453, 'target': ['Value', 'x'], 'guess': 2.75, 'correctness': 'yes', 'steps': 2, 'step_lst': [9, 6], 'time': 12.72}
+{'pid': 2454, 'target': ['Value', 'x'], 'guess': 9.27615613284144, 'correctness': 'yes', 'steps': 30, 'step_lst': [10, 5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 1.4}
+{'pid': 2455, 'target': ['Perimeter', '$'], 'guess': None, 'correctness': 'no', 'steps': 32, 'step_lst': [3, 10, 16, 3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 2.11}
+{'pid': 2456, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.07}
+{'pid': 2457, 'target': ['Value', 'x'], 'guess': 70.0, 'correctness': 'yes', 'steps': 3, 'step_lst': [11, 10, 16], 'time': 0.33}
+{'pid': 2458, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 150.03}
+{'pid': 2459, 'target': ['Value', 'K', 'L', 'P'], 'guess': None, 'correctness': 'no', 'steps': 116, 'step_lst': [1, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 123.98}
+{'pid': 2460, 'target': ['Value', 'x'], 'guess': 97.52937519566717, 'correctness': 'yes', 'steps': 31, 'step_lst': [10, 3, 10, 3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 5.61}
+{'pid': 2461, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 150.2}
+{'pid': 2462, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 2.22}
+{'pid': 2463, 'target': ['Value', 'y'], 'guess': 22.627416997969522, 'correctness': 'yes', 'steps': 26, 'step_lst': [3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 'time': 5.08}
+{'pid': 2464, 'target': ['Value', 'W', 'X'], 'guess': 14.9, 'correctness': 'yes', 'steps': 1, 'step_lst': [11], 'time': 18.3}
+{'pid': 2465, 'target': ['Value', 'z'], 'guess': None, 'correctness': 'no', 'steps': 18, 'step_lst': [13, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 142.06}
+{'pid': 2466, 'target': ['Value', 'A', 'E'], 'guess': 15.0, 'correctness': 'yes', 'steps': 25, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 'time': 8.28}
+{'pid': 2467, 'target': ['Value', 'N', 'C', 'L'], 'guess': 120.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [1], 'time': 21.58}
+{'pid': 2468, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.02}
+{'pid': 2469, 'target': ['Value', 'x'], 'guess': 30.0, 'correctness': 'yes', 'steps': 5, 'step_lst': [10, 1, 2, 3, 4], 'time': 0.73}
+{'pid': 2470, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.09}
+{'pid': 2471, 'target': ['Area', 'A', 'B', 'C', 'D'], 'guess': None, 'correctness': 'no', 'steps': 115, 'step_lst': [10, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 10.87}
+{'pid': 2472, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.1}
+{'pid': 2473, 'target': ['Value', 'x'], 'guess': None, 'correctness': 'no', 'steps': 47, 'step_lst': [1, 3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 9.63}
+{'pid': 2474, 'target': ['Value', 'N', 'M', 'Q'], 'guess': 60.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [10], 'time': 2.8}
+{'pid': 2475, 'target': ['Value', 'x'], 'guess': 18.0, 'correctness': 'yes', 'steps': 10, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'time': 5.11}
+{'pid': 2476, 'target': ['Value', 'R', 'M', 'N'], 'guess': 109.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [1], 'time': 2.72}
+{'pid': 2477, 'target': ['Value', 'E', 'B', 'A'], 'guess': 122.0, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.41}
+{'pid': 2478, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.38}
+{'pid': 2479, 'target': ['Value', 'U', 'T'], 'guess': None, 'correctness': 'no', 'steps': 45, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 84.12}
+{'pid': 2480, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 108.91}
+{'pid': 2481, 'target': ['Value', 'x'], 'guess': 11.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [1], 'time': 0.44}
+{'pid': 2482, 'target': ['Value', 'x'], 'guess': 5.656854249492381, 'correctness': 'yes', 'steps': 28, 'step_lst': [5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 0.7}
+{'pid': 2483, 'target': ['Value', 'Q', 'P'], 'guess': None, 'correctness': 'no', 'steps': 113, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 24.39}
+{'pid': 2484, 'target': ['Value', 'x'], 'guess': 17.88854381999832, 'correctness': 'yes', 'steps': 29, 'step_lst': [10, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 0.59}
+{'pid': 2485, 'target': ['Value', 'A', 'E', 'B'], 'guess': 90.0, 'correctness': 'yes', 'steps': 0, 'step_lst': [], 'time': 0.98}
+{'pid': 2486, 'target': ['Value', 'arc_measure', 'A', 'B', 'C'], 'guess': 67.0, 'correctness': 'yes', 'steps': 15, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4], 'time': 7.69}
+{'pid': 2487, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 37.07}
+{'pid': 2488, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.19}
+{'pid': 2489, 'target': ['Value', 'Q', 'R', 'S'], 'guess': 58.0, 'correctness': 'yes', 'steps': 15, 'step_lst': [16, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], 'time': 0.57}
+{'pid': 2490, 'target': ['Value', 'x'], 'guess': 5.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [1], 'time': 4.41}
+{'pid': 2491, 'target': ['CosOf', ['Value', 'A', 'B', 'C']], 'guess': 0.3846153846153847, 'correctness': 'yes', 'steps': 29, 'step_lst': [9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 2.3}
+{'pid': 2492, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 29.73}
+{'pid': 2493, 'target': ['Value', 'F', 'G'], 'guess': 48.0, 'correctness': 'yes', 'steps': 17, 'step_lst': [9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5], 'time': 132.93}
+{'pid': 2494, 'target': ['Value', 'x'], 'guess': None, 'correctness': 'no', 'steps': 113, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 69.84}
+{'pid': 2495, 'target': ['Value', 'z'], 'guess': 13.333333333333334, 'correctness': 'yes', 'steps': 21, 'step_lst': [17, 3, 7, 3, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 4.61}
+{'pid': 2496, 'target': ['Value', 'x'], 'guess': 6.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [12], 'time': 26.4}
+{'pid': 2497, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 44.73}
+{'pid': 2498, 'target': ['Value', 'angle 1'], 'guess': None, 'correctness': 'no', 'steps': 29, 'step_lst': [2, 1, 11, 14, 12, 4, 16, 17, 2, 2, 5, 3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 2.0}
+{'pid': 2499, 'target': ['Value', 'x'], 'guess': 14.0, 'correctness': 'yes', 'steps': 1, 'step_lst': [17], 'time': 0.29}
+{'pid': 2500, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 150.14}
+{'pid': 2501, 'target': ['Value', 'T', 'Q'], 'guess': 6.0, 'correctness': 'yes', 'steps': 25, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 'time': 4.58}
+{'pid': 2502, 'target': ['Value', 'angle 4'], 'guess': None, 'correctness': 'no', 'steps': 37, 'step_lst': [11, 1, 2, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 1.91}
+{'pid': 2503, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 65.88}
+{'pid': 2504, 'target': ['Value', 'x'], 'guess': 43.85706600244612, 'correctness': 'yes', 'steps': 31, 'step_lst': [10, 17, 5, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 'time': 1.0}
+{'pid': 2505, 'target': ['Area', 'A', 'C', 'B', 'D'], 'guess': None, 'correctness': 'no', 'steps': 101, 'step_lst': [6, 4, 17, 7, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 91.37}
+{'pid': 2506, 'target': ['Value', 'K', 'J', 'L'], 'guess': 30.0, 'correctness': 'yes', 'steps': 6, 'step_lst': [1, 2, 3, 4, 5, 6], 'time': 25.79}
+{'pid': 2507, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 34.72}
+
+Solved list:  [2409, 2410, 2412, 2413, 2414, 2415, 2416, 2418, 2421, 2423, 2424, 2425, 2430, 2433, 2435, 2436, 2441, 2442, 2443, 2444, 2445, 2448, 2449, 2451, 2453, 2454, 2457, 2460, 2463, 2464, 2466, 2467, 2469, 2474, 2475, 2476, 2477, 2481, 2482, 2484, 2485, 2486, 2489, 2490, 2491, 2493, 2495, 2496, 2499, 2501, 2504, 2506]
+Solved and correct list:  [2409, 2410, 2412, 2414, 2415, 2421, 2423, 2424, 2425, 2430, 2433, 2435, 2436, 2441, 2442, 2443, 2444, 2445, 2448, 2451, 2453, 2454, 2457, 2460, 2463, 2464, 2466, 2467, 2469, 2474, 2475, 2476, 2481, 2482, 2484, 2485, 2486, 2489, 2490, 2491, 2493, 2495, 2496, 2499, 2501, 2504, 2506]
+Solved but wrong list:  [2413, 2416, 2418, 2449, 2477]
+Unsolved list:  [2407, 2408, 2411, 2417, 2419, 2420, 2422, 2426, 2427, 2428, 2429, 2431, 2432, 2434, 2437, 2438, 2439, 2440, 2446, 2447, 2450, 2452, 2455, 2456, 2458, 2459, 2461, 2462, 2465, 2468, 2470, 2471, 2472, 2473, 2478, 2479, 2480, 2483, 2487, 2488, 2492, 2494, 2497, 2498, 2500, 2502, 2503, 2505, 2507]
+
+num_solved: 52 (51.49%)
+num_solved_correct: 47 (46.53%)
+num_solved_wrong: 5 (4.95%)
+num_guessed_correct: 59.25 (58.66%)
+
+Average steps for all problems: 40.46
+Average steps for solved problems: 9.40
+Average time for all problems: 48.57 seconds
+Average time for solved problems: 9.78 seconds
+Real total time: 190 seconds
